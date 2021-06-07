@@ -113,8 +113,28 @@ namespace CoffeLand
             //Console.ReadKey();
 
             /* View for Composite Pattern*/
-            var newComposite = new Composite.View();
-            newComposite.GetView();
+            //var newComposite = new Composite.View();
+            //newComposite.GetView();
+            //Console.ReadKey();
+
+            /* View for Mediator Pattern with MediatR nugetPackage */
+            //var newMediator = new Mediator.View();
+            //newMediator.GetView();
+            //Console.ReadKey();
+
+            /* View for Command Pattern */
+            //var newCommand = new Command.View();
+            //newCommand.GetView();
+            //Console.ReadKey();
+
+            /* View for Observer Patter */
+            //var newObserver = new Observer.View();
+            //newObserver.GetView();
+            //Console.ReadKey();
+
+            /* View for Memento Pattern */
+            var newMemento = new Memento.View();
+            newMemento.GetView();
             Console.ReadKey();
 
         }
